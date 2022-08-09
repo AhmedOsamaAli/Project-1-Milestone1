@@ -1,0 +1,44 @@
+.Head {
+  height: 80px;
+
+  justify-content: space-between;
+}
+.left-section {
+  display: inline-block;
+  width: 150px;
+  padding-left: 50%;
+}
+.categorys{
+    display: none;
+}
+.faa{
+    font-size: 24px;
+}
+.material-icons{
+ display: none;
+  }
+  .USER{
+   display: none;
+    }
+    .LAST{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(218, 212, 212);
+        border: 1px solid #DDDDDD;
+        width: 200px;
+        height: 200px;
+        position: relative;
+      
+      }
+      .Alert {
+        float: left;
+        width: 400px;
+        position: absolute;
+        left: 45px;
+        top: 40px;
+        z-index:1000;
+        background-color: #ffffff;
+        padding: 5px;
+        color: #0c0b0b;
+        font-weight: bold;
+      }

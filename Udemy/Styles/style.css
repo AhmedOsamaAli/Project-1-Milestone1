@@ -1,0 +1,90 @@
+
+.all-courses {
+  display: flex;  
+ flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 20px;
+  padding-left: 10px;
+  
+}
+
+
+.checked {
+  color: orange;
+}
+.unchecked {
+  color: rgb(255, 193, 139);
+}
+
+.Course-Name {
+  font-size: 17px;
+  font-weight: bold;
+  font-family: arial;
+  margin: 2px;
+  max-width: 270px;
+}
+.Course-Preview {
+  width: 20%;
+ 
+  max-height: 20%px;
+  min-width: 250px;
+  min-height: 250px;
+}
+.Course-Pic {
+  
+  min-width: 300px;
+  
+  max-height: 200px;
+}
+.Course-Creator {
+  margin: 4px;
+  color: grey;
+}
+.Rating {
+  color: grey;
+  margin-bottom: 4px;
+}
+.new {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.numRate {
+  font-weight: bold;
+  color: rgba(255, 162, 0, 0.821);
+  font-size: 20px;
+}
+.Category {
+  font-weight: Bold;
+  background-color: rgba(220, 255, 92, 0.586);
+  width: 70px;
+}
+.material-icons{
+  font-size: 30px;
+  padding-right: 20px;
+}
+.material-icons:hover{
+  cursor: pointer;
+  color: blueviolet;
+}
+
+.text{
+  margin: 10px 10px;
+ 
+  font-size: 20px;;
+}
+.Labels{
+  font-family: Arial;
+  font-size: 20px;
+  padding:10px 0px ;
+}
+.Label{
+  padding: 10px;
+  
+  display: inline-block;
+}
+.Label:hover{
+  cursor: pointer;
+  color: blueviolet;
+}
+

@@ -1,0 +1,96 @@
+.Head {
+    height: 80px;
+    
+    justify-content: space-between;
+  }
+  .left-section {
+    display: inline-block;
+    width: 100px;
+    margin: 20px;
+  }
+  .middle-section {
+  display: inline-block;
+    flex:1;
+    margin-left: 30px;
+  }
+  .right-section {
+   display: inline-block;
+    width: 100px;
+  }
+  
+  .Categorys{
+    display: inline-block;
+    padding: 25px 25px;
+    font-size: 17px;
+  
+  }
+  .Categorys:hover{
+    color:blueviolet;
+    cursor: pointer;
+  }
+  .text-box {
+    width: 600px;
+    font-size: 20px;
+    border-color: black;
+    margin-left: 10px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 20px;
+    margin-right: 30px;
+  }
+  .Udemy-Icon {
+  
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block;
+  }
+.USER{
+width: 25PX;
+height: 25px;
+border-radius: 50%;
+}
+.USER:hover{
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.submit{
+    font-size: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    color: gray;
+  }
+  .submit:hover{
+    cursor:pointer;
+    border: none;
+  }
+  .faa{
+    font-size: 0px;
+  }
+
+  .LAST{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(218, 212, 212);
+    border: 1px solid #DDDDDD;
+    width: 200px;
+    height: 200px;
+    position: relative;
+  
+  }
+  .Alert {
+    float: left;
+    width: 400px;
+    position: absolute;
+    left: 45px;
+    top: 40px;
+    z-index:1000;
+    background-color: #ffffff;
+    padding: 5px;
+    color: #0c0b0b;
+    font-weight: bold;
+  }
